@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+
+.carousel-item{
+    height: 91vh;
+}
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover !important;
+}
+
+.bi:hover{
+    color: #0d6efd;
+}
